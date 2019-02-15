@@ -21,8 +21,6 @@ killTomcat()
     fi
 }
 cd $PROJ_PATH/order
-chmod -R 777 target
-rm -rf target
 mvn clean install
 
 # 停tomcat
